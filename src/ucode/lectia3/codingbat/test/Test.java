@@ -32,9 +32,7 @@ public int caughtSpeeding(int speed, boolean isBirthday) {
         return 2;
     }
 }
-    public boolean inOrderEqual(int a, int b, int c, boolean equalOk) {
-//https://codingbat.com/prob/p140272
-                }
+
     }
 
 

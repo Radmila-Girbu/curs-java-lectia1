@@ -5,29 +5,36 @@ public class Codingbat {
         Codingbat codingbat = new Codingbat();
         int vv = codingbat.sumDouble(2, 6);
         vv = codingbat.diff21(19);
-        boolean x = codingbat.hasTeen(15,7,4);
+        boolean x = codingbat.hasTeen(15, 7, 4);
         x = codingbat.sleepIn(false, true);
         x = codingbat.monkeyTrouble(true, true);
-        x = codingbat.makes10(8,6);
+        x = codingbat.makes10(8, 6);
         x = codingbat.posNeg(6, 3, false);
         codingbat.makeAbba("Hey", "Be");
         x = codingbat.endsLy("ly");
-        codingbat.middleThree("roe") ;
+        codingbat.middleThree("roe");
         codingbat.atFirst("Da");
         codingbat.middleTwo("DKart");
         codingbat.extraEnd("aeg");
         x = codingbat.cigarParty(8, true);
         x = codingbat.answerCell(true, false, true);
-        vv = codingbat.greenTicket(6,3,3);
+        vv = codingbat.greenTicket(6, 3, 3);
         vv = codingbat.caughtSpeeding(80, false);
-        vv = codingbat.redTicket(7,7, 8);
+        vv = codingbat.redTicket(7, 7, 8);
         int[] a = new int[]{4, 6, 8};
-        int [] b = new int[] {5, 6};
-        int [] c = new int [2] ;
+        int[] b = new int[]{5, 6};
+        int[] c = new int[2];
         c = codingbat.middleWay(a, b);
 
         codingbat.withouEnd2("ADcLyr");
-        codingbat.theEnd("Adc", true );
+        codingbat.theEnd("Adc", true);
+        vv = codingbat.sum2(c);
+        c = codingbat.maxEnd3(c);
+        c = codingbat.makeMiddle(c);
+        x = codingbat.startHi("atr");
+        String u = codingbat.left2("HELLO");
+        x = codingbat.frontAgain("ed");
+
     }
 
     //    https://codingbat.com/prob/p154485
@@ -359,12 +366,20 @@ makes10(12, -2) → true	true	OK
         }
     }
 */
+//    https://codingbat.com/prob/p142247
+    /*Given a string, if a length 2 substring appears at both its beginning and end,
+     *return a string without the substring at the beginning, so "HelloHe" yields "lloHe".
+     *The substring may overlap with itself, so "Hi" yields "".
+     *Otherwise, return the original string unchanged.*/
     public String withouEnd2(String str) {
 
         return str.substring(1, str.length() - 1);
 
 
     }
+//    https://codingbat.com/prob/p162477
+    /*Given a string, return a string length 1 from its front, unless front is false,
+     *in which case return a string length 1 from its back. The string will be non-empty.*/
 
     public String theEnd(String str, boolean front) {
         int n = str.length() - 1;
@@ -376,7 +391,101 @@ makes10(12, -2) → true	true	OK
             return str.substring(n);
         }
     }
+
+    //    https://codingbat.com/prob/p190968
+    /*Given an array of ints, return the sum of the first 2 elements in the array.
+     *If the array length is less than 2,
+     *just sum up the elements that exist, returning 0 if the array is length 0.*/
+    public int sum2(int[] nums) {
+        if (nums.length < 2) {
+            return 1;
+        }
+        if (nums.length == 1) {
+            return 0;
+        } else {
+            return nums[0] + nums[1];
+        }
+
+
+    }
+
+    //https://codingbat.com/prob/p146256
+    /*Given an array of ints length 3, figure out which is larger,
+     *the first or last element in the array,
+     *and set all the other elements to be that value. Return the changed array.*/
+    public int[] maxEnd3(int[] nums) {
+        int[] nums1 = new int[]{nums[0], nums[0], nums[0]};
+        int[] nums2 = new int[]{nums[2], nums[2], nums[2]};
+        if (nums[0] > nums[2]) {
+            return nums1;
+        } else {
+            return nums2;
+        }
+    }
+
+    //https://codingbat.com/prob/p199519
+    /*Given an array of ints of even length, return a new array
+     *length 2 containing the middle two elements from the original array.
+     *The original array will be length 2 or more.*/
+    public int[] makeMiddle(int[] nums) {
+        int n = nums.length;
+        int i = (n - 2) / 2;
+        int[] newNums = new int[]{i, i + 2};
+        return newNums;
+    }
+
+    //    https://codingbat.com/prob/p191022
+//Given a string, return true if the string starts with "hi" and false otherwise.
+    public boolean startHi(String str) {
+        if (str.startsWith("hi")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+//    https://codingbat.com/prob/p197720
+/*Given a string, return a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2.
+    public String left2(String str) */
+// Am incercat diverse algoritmuri complicate, cand mi s-a luminat mintea am ras cateva minuete.
+//    o problema simpla pe care o tot complicam
+
+    public String left2(String str) {
+
+        return str.substring(2).concat(str.substring(0, 2));
+    }
+
+    //https://codingbat.com/prob/p196652
+    /*Given a string, return true if the first 2 chars in the string also appear at the end of the string,
+     *such as with "edited".*/
+    public boolean frontAgain(String str) {
+        if (str.length() >= 2) {
+            if (str.endsWith(str.substring(0, 2))) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
+    }
+
+    //    https://codingbat.com/prob/p174148
+    /*Given a string and an int n, return a string made of the first and last n chars from the string.
+     *The string length will be at least n.*/
+    public String nTwice(String str, int n) {
+        int i = str.length() - 3;
+        return str.substring(0, n) + str.substring(str.length() - n);
+    }
+
+    //    https://codingbat.com/prob/p144623
+    /*Given a string and an index, return a string length 2 starting at the given index.
+     *If the index is too big or too small to define a string length 2,
+     *use the first 2 chars. The string length will be at least 2.
+     */
+
 }
+
+
 
 
 
