@@ -22,7 +22,7 @@ public class Codingbat2 {
         c = codingbat2.inOrder(9, 6, 3, true);
         c = codingbat2.lessBy10(7, 1, 4);
         c = codingbat2.squirrelPlay(92, false);
-        codingbat2.alarmClock(4,true);
+        codingbat2.alarmClock(4, true);
     }
 
     //    https://codingbat.com/prob/p137742
@@ -295,19 +295,67 @@ public class Codingbat2 {
      * and weekends it should be "off".
      */
     public String alarmClock(int day, boolean vacation) {
-        if (vacation==true  && (day > 0 && day < 6)) {
+        if (vacation == true && (day > 0 && day < 6)) {
             return "10:00";
         }
-        if (vacation==true && (day == 0 || day == 6)) {
+        if (vacation == true && (day == 0 || day == 6)) {
             return "off";
         }
-        if (day > 0 && day < 6 && vacation==false ) {
+        if (day > 0 && day < 6 && vacation == false) {
             return "7:00";
         } else {
             return "10:00";
         }
     }
+
+    //https://codingbat.com/prob/p100962
+    /*   We'll say a number is special if it is a multiple of 11 or if it is one more than a multiple of 11.
+     *Return true if the given non-negative number is special.
+     */
+    public boolean specialEleven(int n) {
+        if (n % 11 == 0 || (n - 1) % 11 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    //https://codingbat.com/prob/p115243
+    /*Given an int n, return the string form of the number followed by "!".
+     *So the int 6 yields "6!". Except if the number is divisible by 3 use "Fizz" instead of the number,
+     *  and if the number is divisible by 5 use "Buzz", and if divisible by both 3 and 5,
+     *  use "FizzBuzz".
+     */
+    public String fizzString2(int n) {
+        if (n % 3 == 0 && n % 5 == 0) {
+            return "FizzBuzz!";
+        }
+        if (n % 3 == 0) {
+            return "Fizz!";
+        }
+        if (n % 5 == 0) {
+            return "Buzz!";
+        } else {
+            return n + "!";
+        }
+    }
+//    https://codingbat.com/prob/p142270
+
+    /*Given a string and a non-negative int n,
+     *return a larger string that is n copies of the original string.
+     */
+    public String stringTimes(String str, int n) {
+        String strResult = "";
+        for (int iterator = 0; iterator < n; iterator++) {
+            strResult = strResult + str;
+        }
+        return strResult;
+    }
+
+
 }
+
+
 
 
 
