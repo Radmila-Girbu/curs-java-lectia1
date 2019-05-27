@@ -88,7 +88,7 @@ public class MainTest {
         MainXAnd0 xAnd0 = new MainXAnd0();
         Xand0Matrix theMatrix = new Xand0Matrix();
         //theMatrix.printMatrix();
-        theMatrix.makeMove(1, 1, "X");
+        theMatrix.makeMove(1,      1, "X");
         theMatrix.makeMove(2, 1, "0");
         theMatrix.printMatrix();
         theMatrix.makeMove(1, 2, "X");

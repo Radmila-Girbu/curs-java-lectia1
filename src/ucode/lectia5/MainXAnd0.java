@@ -2,7 +2,7 @@ package ucode.lectia5;
 
 import java.util.Scanner;
 
-public class MainXAnd0 {
+public class  MainXAnd0 {
     public static void main(String[] args) {
         Xand0Matrix matrix = new Xand0Matrix();
         Scanner scanner = new Scanner(System.in);

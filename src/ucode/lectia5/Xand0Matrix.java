@@ -116,11 +116,16 @@ public class Xand0Matrix {
         scoreX = 0;
         scoreY = 0;
         if (gameOver("x")) {
+            System.out.println("X"+" " +scoreX++);
             return scoreX++;
+
         }
          if (gameOver("y")) {
+             System.out.println("Y"+" " +scoreX++);
             return scoreY++;
-        }
+        }else{
+             return -1;
+         }
     }
 }
 
