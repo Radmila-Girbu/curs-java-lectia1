@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a373804-266c-4919-9747-313213015035" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ucode/lectia5/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ucode/lectia5/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ucode/lectia5/MainXAnd0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ucode/lectia5/MainXAnd0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ucode/lectia5/Xand0Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ucode/lectia5/Xand0Matrix.java" afterDir="false" />
@@ -12,6 +13,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -72,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ucode/lectia4/Codingbat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1988">
+            <state relative-caret-position="595">
               <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
               <folding>
                 <element signature="e#2232#2233#0" expanded="true" />
@@ -106,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ucode/lectia5/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+            <state relative-caret-position="1547">
+              <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -115,8 +119,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ucode/lectia5/MainXAnd0.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="64">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +131,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ucode/lectia5/Xand0Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
+            <state relative-caret-position="697">
+              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+              <folding>
+                <element signature="e#4989#4990#0" expanded="true" />
+                <element signature="e#5029#5030#0" expanded="true" />
+                <element signature="e#5095#5096#0" expanded="true" />
+                <element signature="e#5153#5154#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,15 +196,15 @@
         <option value="$PROJECT_DIR$/src/ucode/lectia3/codingbat/Codingbat.java" />
         <option value="$PROJECT_DIR$/src/ucode/lectia4/Codingbat.java" />
         <option value="$PROJECT_DIR$/src/ucode/lectia4/Codingbat2.java" />
-        <option value="$PROJECT_DIR$/src/ucode/lectia5/Xand0Matrix.java" />
         <option value="$PROJECT_DIR$/src/ucode/lectia5/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/ucode/lectia5/Xand0Matrix.java" />
         <option value="$PROJECT_DIR$/src/ucode/lectia5/MainXAnd0.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="136" />
-    <option name="width" value="1754" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="135" />
+    <option name="width" value="1755" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
@@ -199,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,6 +303,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -307,7 +320,20 @@
               <item name="Tema lectia1" type="58d84e3e:PackageViewProjectNode" />
               <item name="curs-java-lectia1" type="616d4139:PackageViewModuleNode" />
               <item name="ucode" type="1f31426a:PackageElementNode" />
+              <item name="lectia2" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Tema lectia1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="curs-java-lectia1" type="616d4139:PackageViewModuleNode" />
+              <item name="ucode" type="1f31426a:PackageElementNode" />
               <item name="lectia3.codingbat" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Tema lectia1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="curs-java-lectia1" type="616d4139:PackageViewModuleNode" />
+              <item name="ucode" type="1f31426a:PackageElementNode" />
+              <item name="lectia3.codingbat" type="1f31426a:PackageElementNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="Tema lectia1" type="58d84e3e:PackageViewProjectNode" />
@@ -321,17 +347,6 @@
               <item name="ucode" type="1f31426a:PackageElementNode" />
               <item name="lectia5" type="1f31426a:PackageElementNode" />
             </path>
-            <path>
-              <item name="Tema lectia1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="curs-java-lectia1" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-            <path>
-              <item name="Tema lectia1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="curs-java-lectia1" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="toolbarButtonGraphics" type="1f31426a:PackageElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -340,6 +355,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -362,7 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
+  <component name="RunManager" selected="Application.MainXAnd0">
     <configuration name="Codingbat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ucode.lectia4.Codingbat" />
       <module name="curs-java-lectia1" />
@@ -430,8 +446,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.MainXAnd0" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.Codingbat" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.InterchangeVariables" />
@@ -460,7 +476,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22483222" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21140939" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.2147651" side_tool="true" weight="0.23087819" />
@@ -468,7 +484,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7852349" visible="true" weight="0.23087819" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7852349" visible="true" weight="0.2917847" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -480,8 +496,8 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.24966443" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.02238806" />
-      <window_info anchor="right" id="Ant Build" order="8" visible="true" weight="0.0852349" />
+      <window_info active="true" anchor="right" id="Coverage" order="7" sideWeight="0.502" side_tool="true" visible="true" weight="0.06510067" />
+      <window_info anchor="right" id="Ant Build" order="8" sideWeight="0.498" visible="true" weight="0.06510067" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -501,6 +517,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Tema_lectia1$MainXAnd0.ic" NAME="MainXAnd0 Coverage Results" MODIFIED="1560676036939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ucode.lectia5.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Tema_lectia1$Main2.ic" NAME="Main2 Coverage Results" MODIFIED="1554626830379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>PrimeNumbers.*</FILTER>
     </SUITE>
@@ -625,6 +644,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ucode/lectia3/codingbat/Codingbat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#6133#6134#0" expanded="true" />
+            <element signature="e#6189#6190#0" expanded="true" />
+            <element signature="e#6926#6927#0" expanded="true" />
+            <element signature="e#6967#6968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ucode/lectia2/squarenumbers2/SquareNumbers2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -653,29 +685,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ucode/lectia4/Codingbat2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6001">
-          <caret line="353" selection-start-line="353" selection-end-line="353" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ucode/lectia3/codingbat/Codingbat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="e#6133#6134#0" expanded="true" />
-            <element signature="e#6189#6190#0" expanded="true" />
-            <element signature="e#6926#6927#0" expanded="true" />
-            <element signature="e#6967#6968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ucode/lectia4/Codingbat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1988">
+        <state relative-caret-position="595">
           <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
           <folding>
             <element signature="e#2232#2233#0" expanded="true" />
@@ -696,24 +708,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ucode/lectia4/Codingbat2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6001">
+          <caret line="353" selection-start-line="353" selection-end-line="353" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ucode/lectia5/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+        <state relative-caret-position="1547">
+          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ucode/lectia5/Xand0Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
+        <state relative-caret-position="697">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding>
+            <element signature="e#4989#4990#0" expanded="true" />
+            <element signature="e#5029#5030#0" expanded="true" />
+            <element signature="e#5095#5096#0" expanded="true" />
+            <element signature="e#5153#5154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ucode/lectia5/MainXAnd0.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="64">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

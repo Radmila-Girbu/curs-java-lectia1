@@ -87,15 +87,11 @@ public class MainTest {
         */
         MainXAnd0 xAnd0 = new MainXAnd0();
         Xand0Matrix theMatrix = new Xand0Matrix();
-        //theMatrix.printMatrix();
-        theMatrix.makeMove(1,      1, "X");
-        theMatrix.makeMove(2, 1, "0");
-        theMatrix.printMatrix();
-        theMatrix.makeMove(1, 2, "X");
-        theMatrix.makeMove(0, 1, "0");
-        theMatrix.printMatrix();
-        theMatrix.makeMove(1, 0, "X");
-        theMatrix.makeMove(2, 1, "0");
+        //theMatrix.makeMove(0, 0, "x");
+        //theMatrix.makeMove(1, 1, "0");
+        //theMatrix.makeMove(2, 2, "0");
+
+
         theMatrix.printMatrix();
     }
 }
